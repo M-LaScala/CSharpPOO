@@ -13,12 +13,22 @@ static void Main()
     {
         //CalcularBonificacao();
         //UsarSistema();
-        CadastrarClientes();
-    }catch (Exception E) //Classe exception é a mais alta na hierarquia
+        //CadastrarClientes();
+        CarregarContas(); 
+    }
+    catch (Exception E) //Classe exception é a mais alta na hierarquia
     {
         Console.WriteLine($"Error: {E.Source}\nDescription: {E.Message}\n{E.StackTrace}");
     }
     
+}
+
+static void CarregarContas()
+{
+    using (LeitorDeArquivo leitor = new LeitorDeArquivo("arquivo.txt"))
+    {
+        leitor.LerProximaLinha();
+    }
 }
 
 static void UsarSistema()
