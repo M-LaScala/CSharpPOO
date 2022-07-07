@@ -14,19 +14,15 @@ namespace POOAlura
 
         public SaldoInsuficienteExcepition() { }
 
-        public SaldoInsuficienteExcepition(string mensagem)
-            : base(mensagem)
-        {
-
-        }
-
+        public SaldoInsuficienteExcepition(string mensagem) : base(mensagem) { }
+        
         public SaldoInsuficienteExcepition(double saldo, double valorSaque) 
             : this($"Tentativa de saque do valor de {valorSaque} em uma conta com saldo {saldo}")
         {
             Saldo = saldo;
             ValorSaque = valorSaque;  
-
         }
+        public SaldoInsuficienteExcepition(string message, Exception inner) : base(message, inner) { }
 
     }
 }

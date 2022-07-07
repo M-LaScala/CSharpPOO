@@ -6,6 +6,8 @@
         public static int TaxaOperacao;
         public Cliente Titular { get; set; } = new Cliente();
         public static int TotalDeContasCriadas { get; private set; }
+        public int ContadorTransferenciasNaoPermitidas { get; private set; }
+        public int ContadorSaquesNaoPermitidos { get; private set; }
         public int Agencia { get; }
         public int NumeroConta { get; }
 
@@ -49,6 +51,7 @@
 
             if (valorSaque > Saldo)
             {
+                ContadorSaquesNaoPermitidos++;
                 throw new SaldoInsuficienteExcepition(valorSaque, Saldo);
             }
             Saldo -= valorSaque;
@@ -66,7 +69,17 @@
             {
                 throw new ArgumentException("Valor inválido para a transferencia.", nameof(valorTransferencia));
             }
-            Sacar(valorTransferencia);
+
+            try
+            {
+                Sacar(valorTransferencia);
+            }
+            catch (SaldoInsuficienteExcepition E)
+            {
+                ContadorTransferenciasNaoPermitidas++;
+                throw new OperacaoFinanceiraException("Operacao nao realizada.", E);
+            }
+            
             contaDestino.Depositar(valorTransferencia);
         }
     }

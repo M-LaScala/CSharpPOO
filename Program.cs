@@ -48,15 +48,15 @@ static void UsarSistema()
 
 static void CadastrarClientes()
 {
-    ContaCorrente conta = new ContaCorrente(300, 874150);
+    ContaCorrente conta1 = new ContaCorrente(300, 874150);
     ContaCorrente conta2 = new ContaCorrente(222, 892002);
 
-    conta.Depositar(50);
-    Console.WriteLine(conta.Saldo);
-    conta.Sacar(10);
-    Console.WriteLine(conta.Saldo);
+    conta1.Depositar(50);
+    Console.WriteLine(conta1.Saldo);
+    conta1.Sacar(10);
+    Console.WriteLine(conta1.Saldo);
 
-    conta.Transferir(-10, conta2);
+    conta1.Transferir(400, conta2);
 
 
     Console.WriteLine(ContaCorrente.TaxaOperacao);
@@ -64,7 +64,7 @@ static void CadastrarClientes()
 
 static void CalcularBonificacao()
 {
-    Funcionario carlos = new GerenteDeConta("546,879.157-20");
+    Funcionario carlos = new GerenteDeConta("546.879.157-20");
     carlos.Nome = "Carlos";
     carlos.AumentarSalario();
 
