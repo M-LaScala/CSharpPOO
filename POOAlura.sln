@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOAlura", "POOAlura.csproj", "{D496BDEA-075B-4F97-B9DC-7AEB2C8DCFE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.SistemaAgencia", "..\ByteBank.SistemaAgencia\ByteBank.SistemaAgencia.csproj", "{39735635-FC37-4348-8E0C-D5732134E5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Modelos", "..\ByteBank.Modelos\ByteBank.Modelos.csproj", "{7B63127E-80BD-402B-A821-32558AA4C0CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D496BDEA-075B-4F97-B9DC-7AEB2C8DCFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D496BDEA-075B-4F97-B9DC-7AEB2C8DCFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D496BDEA-075B-4F97-B9DC-7AEB2C8DCFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D496BDEA-075B-4F97-B9DC-7AEB2C8DCFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39735635-FC37-4348-8E0C-D5732134E5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39735635-FC37-4348-8E0C-D5732134E5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39735635-FC37-4348-8E0C-D5732134E5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39735635-FC37-4348-8E0C-D5732134E5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B63127E-80BD-402B-A821-32558AA4C0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B63127E-80BD-402B-A821-32558AA4C0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B63127E-80BD-402B-A821-32558AA4C0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B63127E-80BD-402B-A821-32558AA4C0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

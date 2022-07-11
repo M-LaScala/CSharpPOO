@@ -1,0 +1,15 @@
+D:\Matheus\Programação\Programas em C#\POOAlura\bin\Debug\net6.0\POOAlura.exe
+D:\Matheus\Programação\Programas em C#\POOAlura\bin\Debug\net6.0\POOAlura.deps.json
+D:\Matheus\Programação\Programas em C#\POOAlura\bin\Debug\net6.0\POOAlura.runtimeconfig.json
+D:\Matheus\Programação\Programas em C#\POOAlura\bin\Debug\net6.0\POOAlura.dll
+D:\Matheus\Programação\Programas em C#\POOAlura\bin\Debug\net6.0\POOAlura.pdb
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.csproj.AssemblyReference.cache
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.AssemblyInfoInputs.cache
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.AssemblyInfo.cs
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.csproj.CoreCompileInputs.cache
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.dll
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\refint\POOAlura.dll
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.pdb
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\POOAlura.genruntimeconfig.cache
+D:\Matheus\Programação\Programas em C#\POOAlura\obj\Debug\net6.0\ref\POOAlura.dll
